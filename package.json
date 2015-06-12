@@ -1,11 +1,10 @@
 {
-  "name": "slack-client",
-  "version": "1.4.1",
+  "name": "slack-client-atmos",
+  "version": "1.4.3",
   "description": "A library for creating a full Slack client",
   "main": "./index",
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register --reporter spec",
-    "prepublish": "grunt prepublish"
+    "test": "mocha --compilers coffee:coffee-script/register --reporter spec"
   },
   "keywords": [
     "slack"
@@ -14,15 +13,15 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/slackhq/node-slack-client/raw/master/LICENSE"
+      "url": "http://github.com/atmos/node-slack-client/raw/master/LICENSE"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/slackhq/node-slack-client.git"
+    "url": "git://github.com/atmos/node-slack-client.git"
   },
   "bugs": {
-    "url": "http://github.com/slackhq/node-slack-client/issues"
+    "url": "http://github.com/atmos/node-slack-client/issues"
   },
   "dependencies": {
     "coffee-script": "~1.9.0",
@@ -30,11 +29,6 @@
     "log": "1.4.0"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-coffee": "^0.12.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-release": "~0.6.0",
-    "grunt-shell": "~0.5.0",
     "should": "~2.0.2",
     "mocha": "~1.13.0"
   },
