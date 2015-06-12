@@ -1,2 +1,4 @@
 node_modules
 *.js
+.node-version
+npm-debug.log
